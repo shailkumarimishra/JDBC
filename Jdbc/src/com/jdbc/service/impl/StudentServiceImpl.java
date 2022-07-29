@@ -27,7 +27,8 @@ public class StudentServiceImpl implements StudentService {
 		List<StudentEntity> list=null;
 //		list.add(dao.findOneStudent());
 		StudentMapper mapper=new StudentMapperImpl();
-		return mapper.mapToStudent(list.add(dao.findOneStudent())) ;
+//		return mapper.mapToStudent(list.add(dao.findOneStudent(studentId))) ;
+		return null;
 	}
 
 	@Override

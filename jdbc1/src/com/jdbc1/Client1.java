@@ -22,7 +22,11 @@ public class Client1 {
 		int phone = sc.nextInt();
 		String email = sc.next();
 		Student stu=new Student(sid, name, phone, email);
-		temp.save(stu);
+		System.out.println(stu.getStuID());
+		System.out.println(stu.getStuName());
+		System.out.println(stu.getStuPhone());
+		System.out.println(stu.getStuEmail());
+//		temp.save(stu);
 	}
 
 }
